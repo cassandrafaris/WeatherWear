@@ -1,5 +1,11 @@
 WeatherWear::Application.routes.draw do
 
+  resources :article_of_clothings
+
+
+  resources :weather_during_workouts
+
+
   resources :workout_types
 
 

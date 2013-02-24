@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @article_of_clothing.name %>
+</p>
+
+<p>
+  <b>Clothing type:</b>
+  <%= @article_of_clothing.clothing_type %>
+</p>
+
+
+<%= link_to 'Edit', edit_article_of_clothing_path(@article_of_clothing) %> |
+<%= link_to 'Back', article_of_clothings_path %>
